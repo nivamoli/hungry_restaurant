@@ -1,0 +1,13 @@
+/* ----**** List *****---- */
+
+ul.menu-principal__ul {
+  display: flex;
+  height: 90px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li.nav_li {
+  margin-right: 50px;
+  list-style: none;
+}

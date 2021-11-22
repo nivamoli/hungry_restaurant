@@ -1,0 +1,84 @@
+/* ----**** Lib *****---- */
+/* ----**** Variables *****---- */
+/*-- colores --*/
+/* tipografia */
+/* ----**** Mixins *****---- */
+/* ----**** Layout *****---- */
+/* ----**** Body *****---- */
+body.body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+/* ----**** Main *****---- */
+/* ----**** Section *****---- */
+section.hero {
+  background-color: #000;
+  height: 100vh;
+}
+
+/* ----**** Header *****---- */
+/* ----**** Div *****---- */
+div.ul_column1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #FFF;
+  padding: 30px 0;
+}
+
+div.nav-logo {
+  position: absolute;
+  left: calc(50% - 90px);
+  top: 30px;
+}
+
+div.ul_column2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #FFF;
+  padding: 30px 0;
+}
+
+/* ----**** Footer *****---- */
+/* ----**** Utilities *****---- */
+/* ----**** Title *****---- */
+/* ----**** Anchor *****---- */
+a.nav_link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+a.nav_link:hover {
+  text-decoration: underline;
+  color: #E8C300;
+}
+
+/* ----**** Pgraphs *****---- */
+/* ----**** Image *****---- */
+/* ----**** Components *****---- */
+/* ----**** List *****---- */
+ul.menu-principal__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li.nav_li {
+  margin-right: 50px;
+  list-style: none;
+}
+
+/* ----**** Button *****---- */
+/* ----**** Form *****---- */
+/* ----**** Media queries *****---- */

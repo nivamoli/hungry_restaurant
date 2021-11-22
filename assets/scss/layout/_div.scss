@@ -1,0 +1,19 @@
+/* ----**** Div *****---- */
+
+div.ul_column1 {
+  display: flex;
+  border-bottom: 1px solid $white;
+  padding: 30px 0;
+}
+
+div.nav-logo {
+  position: absolute;
+  left: calc(50% - 90px);
+  top: 30px;
+}
+
+div.ul_column2 {
+  display: flex;
+  border-bottom: 1px solid rgb();
+  padding: 30px 0;
+}
