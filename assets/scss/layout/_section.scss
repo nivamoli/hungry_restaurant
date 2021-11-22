@@ -3,4 +3,14 @@
 section.hero {
   background-color: $black;
   height: 100vh;
-} 
+  color: $white;
+}
+
+section.header__info-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 90vh;
+  font-size: 1rem;
+}
