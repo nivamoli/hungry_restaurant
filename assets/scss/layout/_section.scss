@@ -16,8 +16,16 @@ section.header__info-principal {
 }
 
 section.about-us {
-  height: 100vh;
+  height: 675px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+section.team {
+  display: flex;
+  height: 675px;
+  align-items: center;
+  background-image: url('/assets/images/background-team.png');
+  background-repeat: no-repeat;
 }
