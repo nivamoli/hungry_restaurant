@@ -32,6 +32,19 @@ section.header__info-principal {
   font-size: 1rem;
 }
 
+section.about-us {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* ----**** Header *****---- */
 /* ----**** Div *****---- */
 div.ul_column1 {
@@ -95,6 +108,22 @@ div.yellow-line {
   border-radius: 15px;
 }
 
+div.about-us__container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Utilities *****---- */
 /* ----**** Title *****---- */
@@ -103,6 +132,11 @@ h1.info-principal__two--title {
   width: 100%;
   text-transform: uppercase;
   margin: 0;
+}
+
+h2.about-us__container1--title {
+  margin-bottom: 0;
+  font-size: 1.8rem;
 }
 
 /* ----**** Anchor *****---- */
@@ -125,6 +159,12 @@ p.info-principal__two--pgraph {
 }
 
 p.info-principal__one--pgraph {
+  margin: 0;
+}
+
+p.about-us__container1--pgraph1 {
+  font-size: 1.2rem;
+  font-weight: bold;
   margin: 0;
 }
 

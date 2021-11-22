@@ -41,5 +41,13 @@ div.yellow-line {
   background-color: $yellow;
   margin-bottom: 30px;
   border-radius: 15px;
+}
 
+div.about-us__container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 30px;
 }
