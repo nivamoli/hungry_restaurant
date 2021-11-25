@@ -16,6 +16,8 @@ section.hero {
   background-color: #000;
   height: 100vh;
   color: #FFF;
+  background-image: url(/assets/images/header-bg.png);
+  background-repeat: no-repeat;
 }
 
 section.header__info-principal {
