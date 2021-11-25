@@ -31,3 +31,10 @@ section.team {
   background-image: url('/assets/images/background-team.png');
   background-repeat: no-repeat;
 }
+
+section.booking {
+  height: 675px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

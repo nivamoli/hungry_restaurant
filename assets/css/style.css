@@ -59,6 +59,19 @@ section.team {
   background-repeat: no-repeat;
 }
 
+section.booking {
+  height: 675px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /* ----**** Header *****---- */
 /* ----**** Div *****---- */
 div.ul_column1 {
@@ -145,6 +158,24 @@ div.team__container2 {
   padding-right: 100px;
 }
 
+div.booking__container1 {
+  padding-left: 100px;
+}
+
+div.booking__container2 {
+  padding-left: 30px;
+}
+
+div.booking__container1-form-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Utilities *****---- */
 /* ----**** Title *****---- */
@@ -158,6 +189,14 @@ h1.info-principal__two--title {
 h2.about-us__container1--title {
   margin-bottom: 0;
   font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+h2.booking__container1--title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 /* ----**** Anchor *****---- */
@@ -248,5 +287,26 @@ button.button2 {
   margin-left: 30px;
 }
 
+button.button-booking {
+  width: calc(100% - 8px);
+}
+
 /* ----**** Form *****---- */
+form.booking__container1-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input.booking-input {
+  padding: 20px 15px;
+  border: none;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  width: 258px;
+  font-size: 1rem;
+}
+
 /* ----**** Media queries *****---- */
